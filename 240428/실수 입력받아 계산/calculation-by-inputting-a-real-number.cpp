@@ -9,8 +9,8 @@ int main() {
     double a{}, b{};
     cin >> a >> b;
 
-    cin << fixed;
-    cin.precision(2);
+    cout << fixed;
+    cout.precision(2);
 
     cout << a + b << "\n";
     return 0;
