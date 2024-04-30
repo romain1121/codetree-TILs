@@ -16,7 +16,7 @@ int main() {
         avg[i] += ((input[0] + input[1] + input[2] + input[3]) / 4.0);
     }
     for (int i = 0; i < n; i++) {
-        if (avg[i] >= 60) {
+        if (avg[i] > 60) {
             cout << "pass\n";
             cnt++;
         }
