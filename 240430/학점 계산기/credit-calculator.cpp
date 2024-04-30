@@ -20,9 +20,9 @@ int main() {
 
     s /= double(n);
     
-    if (s > 4.0)
+    if (s >= 4.0)
         cout << s << "\nPerfect\n";
-    else if (s > 3.0)
+    else if (s >= 3.0)
         cout << s << "\nGood\n";
     else
         cout << s << "\nPoor\n";
