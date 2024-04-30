@@ -20,7 +20,7 @@ int main() {
         sum += n;
     }
 
-    cout << int(sum) << " " << sum / double(++i);
+    cout << int(sum) << " " << sum / ((i == 10) ? double(i) : double(++i));
 
     return 0;
 }
