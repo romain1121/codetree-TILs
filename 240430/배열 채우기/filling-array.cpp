@@ -15,8 +15,10 @@ int main() {
             break;
         }
     }
+    if (i == 10) i--;
+
     for (int j = 0; j <= i; j++) {
-        cout << arr[i-j] << " ";
+        cout << arr[i - j] << " ";
     }
 
     return 0;
