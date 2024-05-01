@@ -17,7 +17,7 @@ class Student {
 };
 
 bool cmp(Student a, Student b) {
-    return make_tuple(-a.h, -a.w) < make_tuple(-b.h, -b.w);
+    return make_tuple(-a.h, -a.w, -a.n) < make_tuple(-b.h, -b.w, -b.n);
 }
 
 int main() {
