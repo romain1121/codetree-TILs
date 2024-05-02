@@ -21,11 +21,14 @@ int main() {
     sort(B, B + n);
 
     for (int i = 0; i < n; i++) {
-        if (A[i] != B[i]) !flag;
+        if (A[i] - B[i])
+            flag = 0;
     }
-    
-    if (flag) cout << "Yes\n";
-    else cout << "No\n";
+
+    if (flag)
+        cout << "Yes\n";
+    else
+        cout << "No\n";
 
     return 0;
 }
