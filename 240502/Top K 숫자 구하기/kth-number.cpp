@@ -8,7 +8,7 @@ int main() {
     cin.tie(0);
 
     int N{}, k{};
-    cin >> N;
+    cin >> N >> k;
 
     int *arr = new int[N];
 
@@ -18,7 +18,7 @@ int main() {
 
     sort(arr, arr + N);
 
-    cout << arr[k] << "\n";
+    cout << arr[k - 1] << "\n";
 
     return 0;
 }
